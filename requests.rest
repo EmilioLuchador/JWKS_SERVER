@@ -1,0 +1,14 @@
+GET http://localhost:8080/posts
+Authorization: Bearer
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNzA5NDQxMDc1fQ.0T8em0wBpC3lnEpyNCU__PZ-vtpfTw2twCdC9OceG4g
+
+
+
+###
+
+POST  http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "username": "Jim"
+}
